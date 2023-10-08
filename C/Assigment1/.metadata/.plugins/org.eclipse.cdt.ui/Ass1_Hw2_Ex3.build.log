@@ -1,0 +1,7 @@
+02:26:54 **** Incremental Build of configuration Debug for project Ass1_Hw2_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ass1_Hw2_Ex3.o" "..\\src\\Ass1_Hw2_Ex3.c" 
+gcc -o Ass1_Hw2_Ex3.exe "src\\Ass1_Hw2_Ex3.o" 
+
+02:26:55 Build Finished. 0 errors, 0 warnings. (took 522ms)
+

@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : Ass1_Hw2_Ex5.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : C program to check whether a character is an alphabet or not
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//to solve buffer problem
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	char character;
+
+	printf("Enter a character :");
+	scanf("%c" , &character);
+
+	if ( (character >= 'a' && character <= 'z') || (character >= 'A' && character <='Z' ))
+		printf("%c is alphabet", character);
+	else
+		printf("%c is NOT alphabet", character);
+
+
+
+
+
+
+	return 0;
+}

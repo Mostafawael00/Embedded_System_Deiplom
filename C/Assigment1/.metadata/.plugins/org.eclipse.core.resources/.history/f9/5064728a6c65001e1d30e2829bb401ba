@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : Ass1_Hw1_Ex7.c
+ Author      : Mostafa Wael
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Swap 2 Numbers Without temp Variable
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//to solve buffer problem
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	int x=10 , y=5;
+
+
+	//Method 1 by using Arithmetic Operation
+
+	x = x + y;
+	y = x - y;
+	x = x - y;
+
+
+	//OR
+
+	/*	x = x * y;
+		y = x / y;
+		x = x / y;	 */
+
+
+	//Method 2 by using Bitwise Operation
+
+
+	/*	x = x ^ y;
+		y = x ^ y;
+		x = x ^ y;   */
+
+
+
+	return 0;
+}

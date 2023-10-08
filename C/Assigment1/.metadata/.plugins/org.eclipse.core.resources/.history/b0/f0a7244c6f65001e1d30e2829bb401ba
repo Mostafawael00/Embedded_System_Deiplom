@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : Ass1_Hw2_Ex2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : C Program to check vowel or consonant
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//to solve buffer problem
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+
+	char alphabet;
+
+	printf("Enter an alphabet :");
+	scanf("%c", &alphabet);
+
+
+	if (alphabet == 'a' || 'e'|| 'o' ||'i'|| 'u' || 'A' || 'E' || 'I' || 'O' || 'U')
+		printf("%c is a vowel", alphabet);
+	else
+		printf("%c is a consonant", alphabet);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	return 0;
+}
